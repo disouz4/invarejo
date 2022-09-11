@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="76.1998mm" height="76.1998mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 7619.98 7619.98"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil2 {fill:#8AC64B}
+    .fil0 {fill:#7EB44D}
+    .fil1 {fill:#608747}
+   ]]>
+  </style>
+    <mask id="id0">
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="1792.67" y1="6818.88" x2="2383.85" y2="6592.1">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+     <rect style="fill:url(#id1)" x="2048.36" y="5298.94" width="496.89" height="2319.51"/>
+    </mask>
+    <mask id="id2">
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="2182.76" y1="6928.25" x2="2753.38" y2="6520.18">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+     <rect style="fill:url(#id3)" x="2261.29" y="5219.6" width="457.93" height="2398.86"/>
+    </mask>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2552193767216">
+   <path class="fil0" d="M2048.61 7618.21c0,0 670.36,-0.01 670.36,-0.01 0,0 3066.93,-7209 3066.93,-7209 -78.74,-114.52 -157.47,-229.05 -236.19,-343.57 0,0 -3288.17,5408.7 -3288.17,5408.7 -224.02,-167.07 -1847.72,-2225.3 -2009.16,-2331.28 -67.48,48.77 -134.98,97.54 -202.47,146.31 357.63,763.78 1998.7,4328.85 1998.7,4328.85z"/>
+   <path class="fil1" style="mask:url(#id0)" d="M2048.61 7618.2l0 0 496.39 -2319.01 -283.46 175.13c0,0 -212.93,2143.88 -212.93,2143.88z"/>
+   <path class="fil1" style="mask:url(#id2)" d="M2718.97 7618.21l-204.31 -2398.36 -253.11 254.49c-0.01,-0.01 457.42,2143.87 457.42,2143.87z"/>
+   <path class="fil2" d="M2261.55 5474.33c-224.03,-167.06 -2009.16,-2331.28 -2009.16,-2331.28l-202.48 146.31c357.63,763.78 1998.7,4328.84 1998.7,4328.84 0,0 670.36,0.01 670.36,0.01 0,0 -457.42,-2143.88 -457.42,-2143.88z"/>
+  </g>
+ </g>
+</svg>
