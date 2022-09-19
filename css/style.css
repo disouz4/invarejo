@@ -2373,6 +2373,9 @@ ul {
   
 }
 
+.check {
+  max-height: 700px;
+}
 @keyframes change{
   0%{
     background-image: url(../img/bg/bg1.JPG);
@@ -2389,6 +2392,13 @@ ul {
   100%{
     background-image: url(../img/bg/bg0.JPG);
   }
+}
+
+.check{
+  display: flex;
+  align-items: center;
+  position: relative;
+    
 }
 
 @media (max-width: 991px) {
@@ -2421,6 +2431,7 @@ ul {
   visibility: hidden;
   display: table-cell;
   vertical-align: middle;
+  
 }
 
 @media (max-width: 991px) {
