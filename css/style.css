@@ -2369,12 +2369,28 @@ ul {
   background-size: cover;
   animation: change 40s infinite;
   
+  
   /*animação*/
   
 }
-
+.banner_part{
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
 .check {
-  max-height: 700px;
+  float: right;
+  margin-right: 280px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 250px;
+  max-height: 100px;
+  
+  z-index: 1;
+
 }
 @keyframes change{
   0%{
@@ -2394,12 +2410,7 @@ ul {
   }
 }
 
-.check{
-  display: flex;
-  align-items: center;
-  position: relative;
-    
-}
+
 
 @media (max-width: 991px) {
   /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_banner.scss */
@@ -2451,7 +2462,7 @@ ul {
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) and (max-width: 1200px) {
   /* line 22, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_banner.scss */
   .banner_part .banner_text {
     height: 650px;
@@ -2944,7 +2955,7 @@ ul {
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 500px) and (max-width: 1200px) {
   /* line 158, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_about_part.scss */
   .experiance_part {
     background-image: none;
@@ -2952,6 +2963,7 @@ ul {
   /* line 170, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_about_part.scss */
   .experiance_part .about_part_img {
     margin-top: 20px;
+    align-items: center;
   }
 }
 
