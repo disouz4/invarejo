@@ -3118,7 +3118,7 @@ ul {
   height: 100%;
   left: 0;
   top: 0;
-  opacity: .9;
+  opacity: .5 ;
   background-image: url(../img/offer_overlay.png);
   z-index: 99;
 }
