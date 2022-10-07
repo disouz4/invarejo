@@ -2363,52 +2363,31 @@ ul {
   height: 700px;
   overflow: hidden;
   position: relative;
-  background-image: url(../img/bg/bg0.JPG);
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  animation: change 40s infinite;
+  
   
   
   /*animação*/
   
 }
-.banner_part{
-  display: flex;
-  align-items: center;
-  position: relative;
-  max-width: 100%;
-  max-height: 100%;
-}
-.check {
-  float: right;
-  margin-right: 280px;
-  display: flex;
-  align-items: center;
-  position: relative;
-  margin-top: 240px;
-  max-height: 100px;
-  
-  z-index: 1;
 
+
+.bg-animate {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  
+  
 }
-@keyframes change{
-  0%{
-    background-image: url(../img/bg/bg1.JPG);
-  }
-  25%{
-    background-image: url(../img/bg/bg2.JPG);
-  }
-  50%{
-    background-image: url(../img/bg/bg3.JPG);
-  }
-  75%{
-    background-image: url(../img/bg/bg4.JPG);
-  }
-  100%{
-    background-image: url(../img/bg/bg0.JPG);
-  }
+
+.bg-check {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-top: 200px;
 }
+
 
 
 
