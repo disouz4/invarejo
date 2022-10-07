@@ -531,6 +531,22 @@ ul {
 .btn_1 {
   display: inline-block;
   padding: 13.5px 45px;
+  background-image: url(../img/whats/WhatsApp.svg);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-color: #66c73d;
+  font-size: 14px;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+}
+
+.btn_5 {
+  display: inline-block;
+  padding: 13.5px 45px;
+  text-align: center;
   background-color: #66c73d;
   font-size: 14px;
   color: #fff;
@@ -2373,9 +2389,11 @@ ul {
 
 
 .bg-animate {
+  display: flex;
   position: absolute;
-  height: auto;
-  width: 60%;
+  align-items: flex-end;
+  max-height: 60%;
+  max-width: 60%;
   right: 0;
   bottom: 0;
   z-index: -1;
@@ -2384,11 +2402,14 @@ ul {
 }
 
 .bg-check {
+  display: flex;
   position: absolute;
   
+  height: 100%;
+  width: 100%;
   right: 0;
   bottom: 0;
-  margin-top: 200px;
+  
 }
 
 
