@@ -2374,6 +2374,8 @@ ul {
 
 .bg-animate {
   position: absolute;
+  height: auto;
+  width: 60%;
   right: 0;
   bottom: 0;
   z-index: -1;
@@ -2383,6 +2385,7 @@ ul {
 
 .bg-check {
   position: absolute;
+  
   right: 0;
   bottom: 0;
   margin-top: 200px;
