@@ -530,16 +530,16 @@ ul {
 /* line 24, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_button.scss */
 .btn_1 {
   display: inline-block;
+  width: 220px;
   padding: 13.5px 45px;
   background-image: url(../img/whats/WhatsApp.svg);
   background-repeat: no-repeat;
-  text-align: center;
+  text-align: right;
   background-color: #66c73d;
   font-size: 14px;
   color: #fff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  text-transform: capitalize;
   border: 1px solid transparent;
 }
 
@@ -2392,6 +2392,7 @@ ul {
   display: flex;
   position: absolute;
   height: 100vh;
+  min-height: 420px;
   right: 0;
   bottom: 0;
   z-index: -1;
@@ -2405,6 +2406,7 @@ ul {
   height: 100vh;
   width: 100vw;
   max-height: 750px;
+  min-height: 420px;
   background-size: cover;
   right: 0;
   bottom: 0;
