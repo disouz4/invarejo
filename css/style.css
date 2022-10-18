@@ -531,6 +531,22 @@ ul {
 .btn_1 {
   display: inline-block;
   padding: 13.5px 45px;
+  background-image: url(../img/whats/WhatsApp.svg);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-color: #66c73d;
+  font-size: 14px;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+}
+
+.btn_5 {
+  display: inline-block;
+  padding: 13.5px 45px;
+  text-align: center;
   background-color: #66c73d;
   font-size: 14px;
   color: #fff;
