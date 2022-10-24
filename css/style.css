@@ -4551,12 +4551,16 @@ ul {
 /* line 186, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_footer.scss */
 .footer-area .contact_info p {
   margin-bottom: 10px;
+  justify-items: center;
+  align-items: center;
 }
 
 /* line 188, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_footer.scss */
 .footer-area .contact_info p span {
   color: #83868c;
   font-size: 16px;
+  justify-items: center;
+  align-items: center;
 }
 
 /* line 194, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_footer.scss */
