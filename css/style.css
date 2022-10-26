@@ -2393,12 +2393,24 @@ ul {
   display: flex;
   position: absolute;
   height: 100vh;
-  min-height: 420px;
+  min-height: 156px;
   right: 0;
   bottom: 0;
   z-index: -1;
   
   
+}
+@media (max-width:500px){
+  .bg-animate{
+    display: flex;
+    position: absolute;
+    width: auto;
+    height: 156px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+  }
 }
 
 .bg-check {
@@ -2412,6 +2424,15 @@ ul {
   right: 0;
   bottom: 0;
   
+}
+@media (max-width:500px){
+  .bg-check{
+    display: flex;
+    width: 400px;
+    height: 156px;
+    left: 0;
+    top: 0;
+  }
 }
 
 .check_list{
@@ -2448,7 +2469,7 @@ ul {
 
 @font-face {
   font-family: Futura;
-  src: url(/invarejo/fonts/FuturaMediumBT.ttf);
+  src: url(../fonts/FuturaMediumBT.ttf);
 }
 .text-banner {
   
@@ -2459,6 +2480,16 @@ ul {
   margin-left: 30px;
   text-shadow: 0.1em 0.1em 0.3em black;
     
+}
+
+@media (max-width:500px){
+  .text-banner{
+    width:300px ;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+
+  }
 }
 
 .text-banner2 {
@@ -2473,7 +2504,16 @@ ul {
   text-shadow: 0.1em 0.1em 0.3em black
     
 }
-
+@media (max-width:500px){
+  .text-banner2{
+    width:400px;
+    margin-top: 30px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
 
 
 .logo-bg {
@@ -2482,7 +2522,24 @@ ul {
   margin-top: 100px;
   margin-left: 30px;
 }
+@media (max-width:500px){
+  .logo-bg{
+    margin-left: -5px;
+    margin-top: -20px;
+    
+  }
+}
+@media (max-width:500px){
+  .banner_part{
+    height: 400px;
+    width: auto;
+  }
+}
 
+.video-youtube{
+  width:852px;
+  height:480
+}
 
 
 @media (max-width: 991px) {
