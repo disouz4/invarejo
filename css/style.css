@@ -43,7 +43,7 @@ input:hover, input:focus {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_common.scss */
   .section_padding {
-    padding: 80px 0px;
+    padding: 70px 0px;
   }
 }
 
@@ -70,7 +70,7 @@ input:hover, input:focus {
 
 /* line 33, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_common.scss */
 .single_padding_top {
-  padding-top: 140px !important;
+  padding-top: 70px !important;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -103,7 +103,7 @@ input:hover, input:focus {
 
 /* line 48, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_common.scss */
 .padding_top {
-  padding-top: 140px;
+  padding-top: 70px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -136,7 +136,7 @@ input:hover, input:focus {
 
 /* line 63, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_common.scss */
 .padding_bottom {
-  padding-bottom: 140px;
+  padding-bottom: 70px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -155,7 +155,7 @@ input:hover, input:focus {
 
 /* line 72, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_common.scss */
 .margin_bottom {
-  margin-bottom: 140px;
+  margin-bottom: 70px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2389,51 +2389,29 @@ ul {
 }
 
 
+
 .bg-animate {
   display: flex;
   position: absolute;
   height: 100vh;
-  min-height: 156px;
+  width: 100vw;
   right: 0;
   bottom: 0;
   z-index: -1;
   
-  
-}
-@media (max-width:500px){
-  .bg-animate{
-    display: flex;
-    position: absolute;
-    width: auto;
-    height: 156px;
-    left: 0;
-    top: 0;
-    z-index: -1;
-
-  }
-}
+}  
 
 .bg-check {
   display: flex;
   position: absolute;
   height: 100vh;
   width: 100vw;
-  max-height: 750px;
-  min-height: 420px;
-  background-size: cover;
+  
   right: 0;
   bottom: 0;
-  
+  z-index: 0;
 }
-@media (max-width:500px){
-  .bg-check{
-    display: flex;
-    width: 400px;
-    height: 156px;
-    left: 0;
-    top: 0;
-  }
-}
+
 
 .check_list{
   margin-top: 60px;
@@ -2457,6 +2435,22 @@ ul {
   display: flex;
   align-items: center;
 }
+.carrossel{
+  position: relative;
+  height: auto;
+  width: 1300px;
+  display: flex;
+  align-items: center;
+}
+
+
+.iframe-gallery{
+  width: 100%;
+  height: 60vh;
+  padding: 0;
+  margin: 0;
+  margin-top: -10px;
+}
 
 .swiper{
   width: 420px;
@@ -2471,6 +2465,7 @@ ul {
   font-family: Futura;
   src: url(../fonts/FuturaMediumBT.ttf);
 }
+
 .text-banner {
   
   font-family: Futura;
@@ -2479,19 +2474,9 @@ ul {
   margin-top: 30px;
   margin-left: 30px;
   text-shadow: 0.1em 0.1em 0.3em black;
-    
+  
+      
 }
-
-@media (max-width:500px){
-  .text-banner{
-    width:300px ;
-    font-size: 35px;
-    align-items: center;
-    justify-content: center;
-
-  }
-}
-
 .text-banner2 {
   
   max-width: 320px;
@@ -2501,53 +2486,33 @@ ul {
   font-size: 25px;
   margin-top: 110px;
   margin-left: 30px;
-  text-shadow: 0.1em 0.1em 0.3em black
-    
+  text-shadow: 0.1em 0.1em 0.3em black;
+  z-index: 1;
 }
-@media (max-width:500px){
-  .text-banner2{
-    width:400px;
-    margin-top: 30px;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-}
+
 
 
 .logo-bg {
   height: 20%;
   width: 20%;
-  margin-top: 100px;
+  margin-top: 120px;
   margin-left: 30px;
 }
-@media (max-width:500px){
-  .logo-bg{
-    margin-left: -5px;
-    margin-top: -20px;
-    
-  }
-}
-@media (max-width:500px){
-  .banner_part{
-    height: 400px;
-    width: auto;
-  }
-}
 
-.video-youtube{
-  width:852px;
-  height:480
-}
-
-
-@media (max-width: 991px) {
+@media ( min-width: 577px) and (max-width: 991px) {
   /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_banner.scss */
   .banner_part {
     height: 750px;
     background-image: none;
     background-color: #f7f7f7;
+  }
+  .text-banner{
+    width:300px ;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    z-index: 1;
   }
 }
 
@@ -2562,9 +2527,10 @@ ul {
 
 /* line 22, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_banner.scss */
 .banner_part .banner_text {
-  display: table;
+  
   width: 100%;
   height: 800px;
+  z-index: 2;
 }
 
 /* line 26, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_banner.scss */
@@ -2794,7 +2760,7 @@ ul {
 
 /* line 101, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_our_service.scss */
 .single_feature_padding {
-  padding-top: 140px;
+  padding-top: 70px;
 }
 
 @media (max-width: 576px) {
@@ -3163,7 +3129,7 @@ ul {
 /* line 218, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_about_part.scss */
 .single_experiance_section {
   margin-top: 0;
-  margin-bottom: 140px;
+  margin-bottom: 70px;
 }
 
 @media (max-width: 991px) {
@@ -3266,7 +3232,7 @@ ul {
   opacity: 1;
   left: 15px;
   right: 15px;
-
+  
 }
 
 /* line 61, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_our_project.scss */
@@ -3556,8 +3522,7 @@ ul {
   font-weight: 700;
   color: #ff5e13;
   font-style: "Roboto", sans-serif;
-  display: inline-block;
-  float: left;
+  display: inline-block; 
   padding-right: 30px;
   line-height: 57px;
 }
@@ -6990,3 +6955,246 @@ h6 {
 }
 
 /*# sourceMappingURL=../css/style.map */
+
+
+
+@media(min-width: 720){
+  .about_part {
+    margin-right: 15px;
+  }
+  p{
+      margin: 0 15px 0 0;
+    }
+
+  .bg-check{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    
+  }
+  .container{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .text-banner{
+    width:300px ;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -70px;
+    z-index: 1;
+  }
+  .text-banner2{
+    width: auto;
+    height: auto;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: -5px;
+  }
+  .logo-bg{
+    margin-left: -5px;
+    margin-top: 30px;
+    
+  }
+  .banner_part{
+    height: 240px;
+    width: 100vw;
+    z-index: -1;
+  }
+  
+  
+  .bg-animate{
+    display: flex;
+    position: absolute;
+    width: auto;
+    margin-left: 30%;
+    height: 100%;
+    left: 0;
+
+  }
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -150px;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+  }
+  .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+  }
+}
+@media (max-width: 575px){
+  .about_part {
+    margin-right: 15px;
+  }
+  p{
+      margin: 0 15px 0 0;
+    }
+
+  .bg-check{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    
+  }
+  .container{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .text-banner{
+    width:300px ;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -70px;
+    z-index: 1;
+  }
+  .text-banner2{
+    width: auto;
+    height: auto;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: -5px;
+  }
+  .logo-bg{
+    margin-left: -5px;
+    margin-top: 30px;
+    
+  }
+  .banner_part{
+    height: 240px;
+    width: 100vw;
+    z-index: -1;
+  }
+  
+  
+  .bg-animate{
+    display: flex;
+    position: absolute;
+    width: auto;
+    margin-left: 30%;
+    height: 100%;
+    left: 0;
+
+  }
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -150px;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+  }
+  .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+  }
+}
+@media (max-width: 500px){
+  .about_part {
+    margin-right: 15px;
+  }
+  p{
+      margin: 0 15px 0 0;
+    }
+
+  .bg-check{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    
+  }
+  .container{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .text-banner{
+    width:300px ;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -70px;
+    z-index: 1;
+  }
+  .text-banner2{
+    width: auto;
+    height: auto;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: -5px;
+  }
+  .logo-bg{
+    margin-left: -5px;
+    margin-top: 30px;
+    
+  }
+  .banner_part{
+    height: 240px;
+    width: 100vw;
+    z-index: -1;
+  }
+  
+  
+  .bg-animate{
+    display: flex;
+    position: absolute;
+    width: auto;
+    margin-left: 12%;
+    height: 240px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+  }
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -150px;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+  }
+  .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+  }
+  
+}

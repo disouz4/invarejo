@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <section>
+    <section class="carrossel">
     
         <div class="swiper mySwiper container">
           <div class="swiper-wrapper content">
@@ -155,8 +155,8 @@
         </div>
     
         <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
       </section>
     
 
@@ -169,9 +169,9 @@
         var swiper = new Swiper(".mySwiper", {
           slidesPerView: 3,
           spaceBetween: 10,
-          slidesPerGroup: 3,
+          slidesPerGroup: 1,
           loop: true,
-          loopFillGroupWithBlank: true,
+          loopFillGroupWithBlank: false,
           pagination: {
             el: ".swiper-pagination",
             clickable: true,
