@@ -2393,8 +2393,7 @@ ul {
 .bg-animate {
   display: flex;
   position: absolute;
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
   right: 0;
   bottom: 0;
   z-index: -1;
@@ -3317,6 +3316,7 @@ ul {
 /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_review.scss */
 .review_part {
   background-image: url(../img/experiance_overlay.png);
+  margin-top: 40px;
   background-repeat: no-repeat;
   background-position: right;
   overflow: hidden;
@@ -3334,6 +3334,7 @@ ul {
   /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_review.scss */
   .review_part {
     background-image: none;
+    padding-top: 140px;
   }
 }
 
